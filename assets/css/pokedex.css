@@ -84,6 +84,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+<<<<<<< HEAD
     position: relative;
     z-index: 1;
 }
@@ -101,6 +102,9 @@
     z-index: -1;
     border-radius: 1rem;
   }
+=======
+}
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 
 .pokemon .number {
     color: #000;
@@ -143,7 +147,10 @@
     height: 70px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 .pagination {
     display: flex;
     flex-direction: row;
@@ -163,8 +170,11 @@
     border-radius: 1rem;
 }
 
+<<<<<<< HEAD
   
 
+=======
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
@@ -181,4 +191,8 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
