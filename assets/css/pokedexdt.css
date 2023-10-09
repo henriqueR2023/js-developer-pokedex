@@ -1,0 +1,42 @@
+
+
+.carousel-item  {
+    max-width: 100%;
+    height: 15rem
+}
+.dt .pokemon {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+    height: 15rem;
+}
+.dt .pokemon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image:  url(../img/pokeball.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    opacity: 0.1;
+    z-index: -1;
+    border-radius: 1rem;
+    background-size: 200px 200px;
+  }
+.dt .pokemon .detail img {
+    max-width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 9rem;
+    bottom: 1rem;
+    transform: scaleX(-1);
+}
